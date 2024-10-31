@@ -1,0 +1,277 @@
+/* General Styles */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background: url("https://png.pngtree.com/background/20210710/original/pngtree-smart-technology-gradient-line-background-material-picture-image_980686.jpg") no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 40px;
+}
+
+.cta-button {
+    background-color: hwb(317 9% 24%);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e03e49;
+}
+
+
+
+/* Team Section */
+.team {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #f6f7f3, #73ef6d);
+}
+
+.team h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: rgb(30, 1, 1);
+}
+
+.team-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-card {
+    background: linear-gradient(135deg, #060000, #5b5959);
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition:transform 0.3s ease-in;
+    text-align: center;
+}
+
+.team-card img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    margin-bottom: 5px;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: beige;
+    
+}
+.team-card p1 {
+    font-size: 1.2em;
+    color: rgb(245, 192, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: bold;
+}
+.team-card p {
+    font-size: 1em;
+    color: #f5efef;
+    font-style: italic;
+}
+/* Product Showcase Section */
+.product-showcase {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.product-showcase h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #014115;
+}
+
+.product-slider {
+    display: flex;
+    justify-content: center; /* Center-align the product slider */
+    overflow-x: auto;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.product {
+    flex: 0 0 auto;
+    width: 250px; /* Adjust the width as needed */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #70014b;
+}
+
+.product p {
+    font-size: 1em;
+    color: #018f35;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #0570fb;
+}
+
+/* FAQ Container */
+.faq-container {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: left; /* Align text left inside the box */
+}
+
+/* FAQ Item */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2b0398;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #0438f2;
+}
+
+
+/* Reviews Section */
+.reviews {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #02024e, #048c9e);
+    text-align: center;
+}
+
+.reviews-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #cff5fc;
+}
+
+/* Reviews Container */
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.review {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgb(247, 244, 244);
+    text-align: center;
+}
+
+.review-body p {
+    font-size: 1.1em;
+    color: #0d0352;
+    margin-bottom: 10px;
+}
+
+.review-author{
+    font-style: italic;
+    color: #04f9f9;
+}
+
+
+/* Footer */
+.footer-section {
+    background-color: #2f5d74d1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer-section p {
+    margin: 10px 0;
+        }
+.footer-icons {
+    margin: 10px 0;
+}
+.footer-icons a {
+    color: white;
+      text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+       }
+.footer-icons a:hover {
+    color: #f0a500;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+.social-icons a i {
+    transition: color 0.3s ease;
+}
+
+.social-icons a[aria-label="Contact"] i {
+    color: #fc9c01; 
+}
+
+.social-icons a[aria-label="Instagram"] i {
+    color: #e1306c; 
+}
+
+.social-icons a[aria-label="Facebook"] i {
+    color: #46def5; 
+}
+
+.social-icons a[aria-label="LinkedIn"] i {
+    color: #9dd9f9; 
+}
+
+.social-icons a:hover i {
+    opacity: 0.7; 
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Smart Technology</title>
+	<style>
+		body {
+			font-family: Calisto, Serif;
+			
+		}
+        /* Navbar styling */
+		nav {
+			background-color: #4287a0e6;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 15px;
+		}
+		nav ul {
+			list-style: none;
+			display: flex;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			margin-left: 20px;
+		}
+		nav ul li a {
+			color: white;
+			text-decoration: none;
+			font-size: 25px;
+		}
+		nav ul li a:hover {
+			color: #ffbd2b;
+		}
+		.logo img {
+			width: 75px;
+			height: 75px;
+			border-radius: 75%;
+			object-fit: cover;
+		}
+		.login {
+			background-color: #0b6171;
+			color: white;
+			padding: 15px 30px;
+			border: none;
+			font-size:20px;
+			cursor: pointer;
+		}
+		.login:hover {
+			background-color: #e08900;
+		}
+        /* Main section styling */
+		.main-section {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: auto;
+			background-color: #f4f4f4;
+		}
+		.main-section img {
+			width: 220vh;
+			height: 75vh;
+		}
+        /* Footer/contact section styling */
+		.footer-section {
+			background-color: #2f5d74d1;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+		.footer-section p {
+			margin: 10px 0;
+        		}
+		.footer-icons {
+			margin: 10px 0;
+		}
+		.footer-icons a {
+			color: white;
+  			text-decoration: none;
+			margin: 0 10px;
+			font-size: 20px;
+       		}
+		.footer-icons a:hover {
+			color: #f0a500;
+		}
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px; 
+            text-decoration: none;
+        }
+
+        .social-icons a i {
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a[aria-label="Contact"] i {
+            color: #fc9c01; 
+        }
+
+        .social-icons a[aria-label="Instagram"] i {
+            color: #e1306c; 
+        }
+
+        .social-icons a[aria-label="Facebook"] i {
+            color: #46def5; 
+        }
+
+        .social-icons a[aria-label="LinkedIn"] i {
+            color: #9dd9f9; 
+        }
+
+        .social-icons a:hover i {
+            opacity: 0.7; 
+        }
+
+
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav>
+		<div class="logo">
+			<img src="D:\Lowkya\Octanet\Images\TV-Logo.jpg" alt="Logo Image">
+		</div>               
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="index.html">Explore</a></li>
+ 			<li><a href="index1.html">About Us</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<button class="login" onclick="window.location.href='Login.html'">Login</button>
+	</nav>
+	<!-- Main Section (Image Section) -->
+	<div id="home" class="main-section">
+		<img src="D:\Lowkya\Octanet\Images\2.jpg" alt="Image Section">
+	</div>
+	<!-- Footer/Contact Section -->
+	<div id="about-us" class="footer-section">
+		<p>©2024 Smart Technology</p>
+		<div class="footer-icons">
+			<a href="https://www.gmail.com" target="_blank" aria-label="Contact">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+		</div>
+	</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.querySelector('.nav-links a[href="#contact"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#contact').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
