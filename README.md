@@ -1,4 +1,4 @@
-# OCTANET_OCTOBER
+# Smart Living-Smart Technology
 
 Smart Technology - Smart Living—a dynamic landing page designed to elevate digital engagement through intuitive, user-centered navigation. Built with HTML, CSS, and JavaScript, this landing page provides an all-in-one experience that balances functionality with a sleek, modern design.
 
